@@ -1,0 +1,19 @@
+{
+  "logging": {
+    "enabled": false
+  },
+  "codegen": {
+    "max_line_length": 80,
+    "array_placement": "file_static"
+  },
+  "ui": {
+    "code_preview": {
+      "syntax_highlight": true
+    }
+  },
+  "storage": {
+    "output_subdir": "outputs",
+    "history_file": "history.json",
+    "config_file": "config.json"
+  }
+}
