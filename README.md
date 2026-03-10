@@ -185,17 +185,15 @@ The app uses a bundled default config (`app/default_config.json`) plus an option
 
 Preferred specs (current):
 
-- `build/pyinstaller_gui.spec` -> `FitterGUI`
-- `build/pyinstaller_cli.spec` -> `FitterCLI`
+- `pyinstaller_gui.spec` -> `FitterGUI`
+- `pyinstaller_cli.spec` -> `FitterCLI`
 
 Example:
 
 ```bash
-pyinstaller build/pyinstaller_gui.spec
-pyinstaller build/pyinstaller_cli.spec
+pyinstaller pyinstaller_gui.spec
+pyinstaller pyinstaller_cli.spec
 ```
-
-There is also a legacy `build/pyinstaller.spec` in the repo.
 
 ## Tests
 
